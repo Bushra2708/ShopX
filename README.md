@@ -4,7 +4,8 @@ A fully functional front-end e-commerce web application built using HTML, Tailwi
 This project simulates a real shopping experience similar to major e-commerce platforms, including product browsing, search, cart management, and checkout flow.
 
 ---
-
+## Live Demo Link
+ https://shop-x-two.vercel.app/
 ## Features
 
 * Sticky navbar and category bar
@@ -51,7 +52,12 @@ ecommerce-project/
 ---
 
 ## How to Run the Project
-https://shop-x-two.vercel.app/
+
+1) Download or clone the project
+2) Open the folder in any code editor
+3) Open index.html in a web browser
+
+No backend or server setup is required.
 ---
 
 ## Inputs
