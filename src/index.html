@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ShopX</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <div class="nav-top">
+    <h1 onclick="goHome()">ShopX</h1>
+
+    <input id="searchInput" type="text" placeholder="Search products..." onkeyup="searchProducts()">
+
+    <button onclick="goCart()" class="cart-btn">
+      🛒 <span id="cart-count">0</span>
+    </button>
+  </div>
+
+  <!-- CATEGORY BAR -->
+  <div class="nav-bottom">
+    <button onclick="filterCategory('all')">All</button>
+    <button onclick="filterCategory('electronics')">Electronics</button>
+    <button onclick="filterCategory('fashion')">Fashion</button>
+  </div>
+
+  <!-- HERO -->
+  <div class="hero">
+    <img src="https://images.unsplash.com/photo-1607083206869-4c7672e72a8a">
+  </div>
+
+  <!-- PRODUCTS -->
+  <div id="products" class="product-grid"></div>
+
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+
+  <script>
+    window.onload = () => {
+      loadProducts();
+      updateCartCount();
+    };
+  </script>
+
+</body>
+
+</html>
