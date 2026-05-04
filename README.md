@@ -51,13 +51,7 @@ ecommerce-project/
 ---
 
 ## How to Run the Project
-
-1. Download or clone the project
-2. Open the folder in any code editor
-3. Open `index.html` in a web browser
-
-No backend or server setup is required.
-
+https://shop-x-two.vercel.app/
 ---
 
 ## Inputs
